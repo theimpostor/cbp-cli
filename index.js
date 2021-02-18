@@ -16,7 +16,7 @@ client.rest.product.getProductStats('BTC-USD')
     side: 'buy',
     type: 'market',
     product_id: 'BTC-USD',
-    funds: 100000000
+    funds: 100
   }))
   .then(console.log)
   .catch((err) => {

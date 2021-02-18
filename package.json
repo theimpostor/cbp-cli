@@ -1,0 +1,15 @@
+{
+  "name": "cbp-dca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cbp-dca",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "coinbase-pro-node": "^2.18.0"
+  }
+}

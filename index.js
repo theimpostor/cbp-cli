@@ -32,6 +32,12 @@ const client = new CoinbasePro({
   useSandbox: !!process.env.CBP_BOT_SANDBOX
 })
 
+// client.rest.product.getProducts()
+//   .then(console.log)
+//   .catch((err) => {
+//     console.error(`Error: ${getErrorMessage(err)}`)
+//   })
+
 client.rest.product.getProductStats('BTC-USD')
   .then(console.log)
   .then(() => client.rest.order.placeOrder({

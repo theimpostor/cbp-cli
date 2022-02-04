@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "coinbase-pro-node": "^3.1.0"
+    "coinbase-pro-node": "^4.0.0"
   }
 }
